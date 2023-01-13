@@ -1,4 +1,14 @@
 <?php
+
+// start session
+session_start();
+// require all the classes & functions files
+require "includes/class-db.php";
+require "includes/class-user.php";
+require "includes/class-authenthication.php";   
+require "includes/class-form-validation.php";
+require "includes/class-csrf.php";
+require "includes/class-post.php";
 // get route from the global variable
 $path = $_SERVER["REQUEST_URI"];
 //remove beginning & ending trailing slash

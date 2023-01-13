@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 //require the header
 require "parts/header.php"
